@@ -1,5 +1,73 @@
-body{ background-color: azure
-}
-#image{width:100%; max-width: 800px; 
+body{
+font-family: sans-serif;
+line-height: 1.5;
+text-align: center;
+color: brown;
 
+}
+
+
+}
+h1{
+    font-size: 4rem;
+    margin-bottom: 0;
+    font-style: italic;
+    color: blue
+}
+@media  (max-width:460p) {
+    h1:
+
+}
+h2{
+    font-size:3.25rem; 
+}
+a:visited{
+    color: black
+}
+
+#title{
+    margin: 30px 8px;
+    padding: 15px;
+    border-radius: 5px;background-color: beige
+}
+#image{
+    Max-width:100%;
+Display:block;
+height: auto;
+margin:0 auto;
+
+}
+
+#img-div{
+    background-color: white;
+    padding:10px;
+    margin: 0
+}
+
+#img-caption{
+    margin: 15px 0 15px 0 ;
+
+    @media(max-width 460px)
+    #img-caption
+}
+
+#headline {
+    margin:50px 0;
+    text-align: center
+}
+ul{
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+    color: black
+}
+
+li{margin: 10px 0}
+
+blockquote{
+    font-style: italic;
+    max-width: 540px;
+    margin: 0 auto 50px auto;
+    text-align: left;
 }
